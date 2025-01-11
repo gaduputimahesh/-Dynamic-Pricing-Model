@@ -1,0 +1,70 @@
+Dynamic Pricing Model for E-Commerce with Reinforcement Learning
+
+Project Overview
+This project implements a dynamic pricing system using reinforcement learning (RL) to adjust prices based on multiple factors, such as customer demand, competitor pricing, and other variables. The goal is to maximize revenue by learning optimal pricing strategies over time through the interactions between the agent (pricing model) and the environment (historical data of rides, competitor prices, and other influencing factors).
+
+Key Components
+1)Data Preprocessing: Clean and transform raw data to a usable format for modeling.
+2_Reinforcement Learning Model Q-learning (or RL algorithm) to learn the best pricing strategy based on the current state.
+3)Evaluation: Assess the performance of the model by calculating total revenue and comparing it with other pricing strategies.
+
+
+2. Data Preprocessing
+Data Source:
+The dataset used is based on dynamic ride pricing, which contains the following columns:
+Number_of_Riders: The number of riders requesting rides.
+Number_of_Drivers: The number of available drivers.
+Location_Category: The category of the location (Urban, Suburban, Rural).
+Customer_Loyalty_Status: Customer loyalty category (Silver, Regular).
+Number_of_Past_Rides: Number of rides taken by the customer.
+Average_Ratings: Average customer rating.
+Time_of_Booking: Time of day when the booking was made (Morning, Afternoon, Evening, Night).
+Vehicle_Type: The type of vehicle requested (Economy, Premium).
+Expected_Ride_Duration: The expected duration of the ride in minutes.
+Historical_Cost_of_Ride: The historical cost of the ride.
+Missing Data Handling:
+Numerical columns are filled with the mean of the respective columns.
+Categorical columns are filled with the mode (most frequent value) of the respective columns.
+
+Exploratory Data Analysis (EDA):
+
+
+3. Reinforcement Learning Model
+RL Model Overview:
+The goal of the reinforcement learning model is to maximize the revenue by learning the optimal pricing strategy for each scenario (state). The model uses Q-learning, where the state is defined by features like demand factors, competitor prices, and historical ride data. The agent (pricing model) adjusts the price for each ride, and the reward is based on the revenue generated.
+
+State: The state of the environment includes variables like the number of riders, number of drivers, location category, customer loyalty, etc.
+Action: The action is the price adjustment made by the agent.
+Reward: The reward is the revenue generated, which is calculated as adjusted_price * quantity_sold.
+Model Algorithm:
+The reinforcement learning algorithm used is Q-learning
+
+
+4. Evaluation and Results
+Evaluation Metrics:
+Total Revenue: The primary metric used to evaluate the model's performance. The total revenue is computed at each episode as adjusted_price * quantity_sold.
+Revenue Over Time: The model's performance is tracked across different episodes to check if the total revenue is increasing, indicating the model is learning effectively.
+Example output:
+
+Episode 0, Total Revenue: 63,388.0
+Episode 100, Total Revenue: 70,617.5
+The total revenue increased as the model learned optimal pricing strategies.
+
+
+Data Preprocessing (dataprocessing.ipynb):
+Handles data cleaning, missing value imputation, and initial exploratory data analysis (EDA).
+Outputs a cleaned dataset.
+
+Evaluation (evaluation.ipynb):
+Evaluates the pricing model by calculating total revenue based on the adjusted price.
+Compares the performance of different pricing strategies (e.g., fixed price vs. RL-based price).
+
+Reinforcement Learning Model (reinforcement_learning.ipynb):
+Implements the Q-learning algorithm to dynamically adjust prices based on the state.
+Updates Q-values and learns the optimal pricing strategy.
+Tracks revenue performance across episodes.
+
+
+Conclusion
+The dynamic pricing model using reinforcement learning demonstrates an effective strategy to adjust prices based on multiple factors to maximize revenue. The model shows improvement over time as it learns from the environment, indicating that reinforcement learning can be a valuable tool for pricing strategies in competitive markets.
+
