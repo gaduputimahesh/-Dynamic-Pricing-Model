@@ -1,5 +1,4 @@
 # Dynamic Pricing Model for E-Commerce with Reinforcement Learning
-
 ## Project Overview
 This project demonstrates the implementation of a **dynamic pricing model** using **Reinforcement Learning (RL)**, specifically **Q-learning**, to optimize pricing strategies for e-commerce platforms. By adjusting prices based on factors like customer demand, competitor pricing, and other market variables, the model aims to maximize revenue through continual learning.
 
@@ -27,11 +26,18 @@ The dataset used in this project simulates a ride-hailing scenario and contains 
 - **Numerical Columns:** Filled with the mean of the respective columns.
 - **Categorical Columns:** Filled with the mode (most frequent value).
 
-## Installation Instructions
+# Usage:
+Data Preprocessing: Prepares the data by cleaning and scaling.
+# Model Training:  
+Implements the Q-learning algorithm to adjust prices dynamically.
+# Evaluation:
+Compares the performance of RL-based pricing strategies with traditional pricing models.
+# Results:
+The model shows improvement over time as it learns from the data, with total revenue increasing as the pricing strategy becomes more optimized. 
+# output: 
+Episode 0, Total Revenue: $63,388
+Episode 100, Total Revenue: $70,617
 
-### Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/gaduputimahesh/-Dynamic-Pricing-Model.git
-cd Dynamic-Pricing-Model
+# Conclusion:
+The project successfully uses reinforcement learning to implement a dynamic pricing model that maximizes revenue over time. The approach is highly effective in competitive e-commerce markets and can be adapted to various industries with similar pricing needs
 
