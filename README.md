@@ -9,10 +9,7 @@ The goal is to train a model that dynamically adjusts prices based on historical
 - **Reinforcement Learning Model:** Uses **Q-learning** to determine the optimal price for each situation based on market conditions.
 - **Evaluation:** Compares the performance of RL-based pricing strategies with fixed pricing methods by tracking the generated revenue.
  
-Total Revenue: 75817.50
-  ![download](https://github.com/user-attachments/assets/4fb2e342-9d65-4e7e-8fc2-3e799f315bff)
-
-
+ 
 ## Dataset
 The dataset used in this project simulates a ride-hailing scenario and contains the following features:
 - `Number_of_Riders`: Number of riders requesting rides.
@@ -36,6 +33,9 @@ Data Preprocessing: Prepares the data by cleaning and scaling.
 Implements the Q-learning algorithm to adjust prices dynamically.
 # Evaluation:
 Compares the performance of RL-based pricing strategies with traditional pricing models.
+Total Revenue: 75817.50
+![download](https://github.com/user-attachments/assets/7dbcb05a-99ed-4d29-92e8-69e4345254f3)
+
 # Results:
 The model shows improvement over time as it learns from the data, with total revenue increasing as the pricing strategy becomes more optimized. 
 # output: 
