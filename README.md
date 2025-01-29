@@ -28,7 +28,7 @@ The dataset used in this project simulates a ride-hailing scenario and contains 
 - **Categorical Columns:** Filled with the mode (most frequent value).
 
 # Usage:
-Data Preprocessing: Prepares the data by cleaning and scaling.
+# Data Preprocessing: Prepares the data by cleaning and scaling.
 ![Screenshot (179)](https://github.com/user-attachments/assets/b5013afb-cba8-4f70-9980-36f58fc83100)
 ![Screenshot (181)](https://github.com/user-attachments/assets/59d46229-9c3d-43ec-b3bb-62d5dd40f722)
 ![Screenshot (182)](https://github.com/user-attachments/assets/f4d8083f-5c40-4fca-934a-991766e0fef0)
@@ -39,12 +39,18 @@ Data Preprocessing: Prepares the data by cleaning and scaling.
 
 # Model Training:  
 Implements the Q-learning algorithm to adjust prices dynamically.
+
 # Evaluation:
 Compares the performance of RL-based pricing strategies with traditional pricing models.
 Total Revenue: 75817.50
 ![download](https://github.com/user-attachments/assets/df89b75a-08d9-427e-bc1f-5e4ee5e64440)
 
 The model shows improvement over time as it learns from the data, with total revenue increasing as the pricing strategy becomes more optimized. 
+# Reinforcement Learning
+![Screenshot (184)](https://github.com/user-attachments/assets/48824aea-bc3a-4734-86a4-5ed124c70125)
+![Screenshot (178)](https://github.com/user-attachments/assets/83eb2d97-c237-4503-b46b-fe0b801859ed)
+
+
 # output: 
 Episode 0, Total Revenue: $63,388
 Episode 100, Total Revenue: $70,617
