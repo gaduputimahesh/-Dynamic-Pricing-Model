@@ -8,6 +8,15 @@ The goal is to train a model that dynamically adjusts prices based on historical
 - **Data Preprocessing:** Includes data cleaning, handling missing values, and feature scaling to prepare raw data for modeling.
 - **Reinforcement Learning Model:** Uses **Q-learning** to determine the optimal price for each situation based on market conditions.
 - **Evaluation:** Compares the performance of RL-based pricing strategies with fixed pricing methods by tracking the generated revenue.
+Expected_Ride_Duration  Historical_Cost_of_Ride  adjusted_price
+0                      90               284.257273             2.0
+1                      43               173.874753             1.0
+2                      76               329.795469             2.0
+3                     134               470.201232             1.0
+4                     149               579.681422             2.0
+Total Revenue: 75817.50
+  ![download](https://github.com/user-attachments/assets/4fb2e342-9d65-4e7e-8fc2-3e799f315bff)
+
 
 ## Dataset
 The dataset used in this project simulates a ride-hailing scenario and contains the following features:
