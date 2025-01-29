@@ -29,6 +29,12 @@ The dataset used in this project simulates a ride-hailing scenario and contains 
 
 # Usage:
 Data Preprocessing: Prepares the data by cleaning and scaling.
+   Historical_Cost_of_Ride  
+0               284.257273  
+1               173.874753  
+2               329.795469  
+3               470.201232  
+4               579.681422  
 # Model Training:  
 Implements the Q-learning algorithm to adjust prices dynamically.
 # Evaluation:
