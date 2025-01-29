@@ -37,6 +37,8 @@ The model shows improvement over time as it learns from the data, with total rev
 # output: 
 Episode 0, Total Revenue: $63,388
 Episode 100, Total Revenue: $70,617
+![Screenshot (178)](https://github.com/user-attachments/assets/d43116f0-550d-42ee-9316-dfbfa6f87514)
+
 
 # Conclusion:
 The project successfully uses reinforcement learning to implement a dynamic pricing model that maximizes revenue over time. The approach is highly effective in competitive e-commerce markets and can be adapted to various industries with similar pricing needs
