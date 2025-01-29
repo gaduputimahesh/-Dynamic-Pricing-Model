@@ -53,7 +53,7 @@ The model shows improvement over time as it learns from the data, with total rev
 
 # output: 
 Episode 0, Total Revenue: $63,388
-Episode 100, Total Revenue: $70,617
+Episode 900, Total Revenue: $100,617
 
 
 
